@@ -3,158 +3,713 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bill & Troy</title>
+    <link rel="icon" type="image/png" href="./assets/favEK.png">
+    <title>Edward Kegley</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <section id="landing">
+    <section id="heading">
         <nav>
             <div class="container">
                 <div class="row">
                     <div class="nav__bar">
-                        <div class="nav__links">
-                            <ul class="nav__link">
-                                <li>
-                                    <a href="#" class="link">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="link">About</a>
-                                </li>
-                            </ul>
-                        </div>
                         <div class="nav__logo">
-                            <img class="logo" src="./assets/BarberLogo.png">
+                            <img class="logo" src="./assets/EK.png">
                         </div>
-                        <div class="nav__links">
-                            <ul class="nav__link">
-                                <li>
-                                    <a href="#" class="link">Services</a>
+                            <ul class="nav__links">
+                                <li class="nav__link gradient-text">
+                                    <a href="#hero">About</a>
                                 </li>
-                                <li>
-                                    <a href="#" class="link">Contact</a>
+                                <li class="nav__link gradient-text">
+                                    <a href="#contact">Contact</a>
+                                </li>
+                                <li class="nav__link gradient-text">
+                                    <a href="#languages">Languages</a>
+                                </li>
+                                <li class="nav__link gradient-text">
+                                    <a href="#projects">Projects</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-           </div>
+            </div>
         </nav>
     </section>
+
     <section id="hero">
         <div class="container">
             <div class="row">
-                <div class="hero__card">
+                <div class="hero">
+                    <div class="hero__title">
+                    <h2><span class="line1">Aspiring</span></h2> 
+                    <h1>
+                            
+                        <span class="line2 gradient">Frontend <br> <span class="line3">Developer</span></span>
+                    </h1>
+                    </div>
+                <div class="hero__box">
                     <div class="hero__left">
-                        <div class="hero__content">
-                            <div class="hero__divider">
-                                <span class="hero__line"></span>
-                                    <div class="service__icon rotate__-90">✂</div>
-                                <span class="hero__line"></span>
-                            </div>
-                            <div class="hero__title">
-                                <h2>Traditional <br><span class="red">Barbering.</span></h2>
-                            </div>
-                            <div class="hero__subtitle">
-                                <h3>Modern <span class="red">Style.</span></h3>
-                            </div>
-                            <div class="hero__divider">
-                                <span class="hero__line"></span>
-                                <i class="fa-solid fa-scissors"></i>
-                                <span class="hero__line"></span>
-                            </div>
+                        <p class="para">I'm <span class="gradient">Edward Kegley</span>, a frontend developer in training who enjoys creating fast, responsive websites with clean code and thoughtful design. Every project is an opportunity to improve my craft and build engaging digital experiences.</p>
+                    </div>
+                    <div class="hero__right">
+                        <div class="studio__box">
+                            <div class="studio__box--top">
+                                <div class="studio__controls">
+                                    <span class="circle red"></span>
+                                    <span class="circle yellow"></span>
+                                    <span class="circle green"></span>
+                                </div>
+                                <span class="studio__title">~/portfolio/about.me</span>
+                                </div>
+                                <div class="studio__box--bottom">
+                                    <p>
+                                        <span class="grey__text">// developer profile</span><br>
+                                        <span class="red__text">const</span> <span class="blue__text">edward</span> = {
+                                    </p>
 
-                            <div class="hero__para">
-                                <p>Quality haircuts and grooming for men and boys in the Brookland area.</p>
-                            </div>
-                            <div class="hero__btns">
-                                <button class="hero__btn">Book Appointment</button>
-                                <button class="hero__btn">Call Now</button>
+                                    <div class="code">
+                                        <div class="code-line">
+                                            <span class="yellow__text">focus</span>:
+                                            <span class="green__text">'Responsive Web Design'</span>,
+                                        </div>
+
+                                        <div class="code-line">
+                                            <span class="yellow__text">stack</span>:
+                                            [<span class="green__text">'HTML', 'CSS', 'JavaScript', 'React'</span>],
+                                        </div>
+
+                                        <div class="code-line">
+                                            <span class="yellow__text">location</span>:
+                                            <span class="green__text">'Brookland, AR'</span>,
+                                        </div>
+
+                                        <div class="code-line">
+                                            <span class="yellow__text">status</span>:
+                                            <span class="green__text">'available'</span>,
+                                        </div>
+
+                                        <div class="code-line">
+                                            <span class="yellow__text">learning</span>:
+                                            [<span class="green__text">'React'</span>,
+                                            <span class="green__text">'TypeScript'</span>]
+                                        </div>
+
+                                        <div class="code-line closing-brace">}</div>
+
+                                        <div class="code-line__primary">
+                                            <span class="red__text">console.</span>log(<span class="green__text">edward</span>);<span class="cursor"></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero__right">
-                        <div class="hero__img--wrapper">
-                            <img class="hero__img active" src="./assets/hero2.jpg">
-                            <img class="hero__img" src="./assets/hero3.jpg">
-                            <img class="hero__img" src="./assets/hero4.jpg">
-                        </div>
-                    </div> 
                 </div>
             </div>
         </div>
     </section>
-    <section id="services">
-    <div class="container">
-        <div class="services__header">
-            <h2 class="services__title">
-                Our <span class="red">Services.</span>
-            </h2>
-            <p class="services__subtitle">
-                Precision cuts, classic grooming, and modern styles tailored to every client.
-            </p>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact__box">
+                    <div class="contact__right">
+                        <div class="contact--studio__box">
+                            <div class="contact--studio__box--top">
+                                <div class="contact--studio__controls">
+                                    <span class="circle red"></span>
+                                    <span class="circle yellow"></span>
+                                    <span class="circle green"></span>
+                                </div>
+                                <span class="contact--studio__title">~/portfolio/contact.me</span>
+                            </div>
+                            <div class="contact--studio__box--bottom">
+                                <div class="contact--left__half">
+                                    <div class="contact__title contact__title--code">
+                                        <div class="contact__tabs">
+                                            <button id="html-tab" class="tab active">HTML</button>
+                                            <button id="css-tab" class="tab">CSS</button>
+                                            <hr class="code-divider">
+                                        </div>
+                                    </div>
+                                    <div id="html-code" class="html__code">
+
+                                        <div class="code-line blank-line">&nbsp;</div>
+
+                                        <div class="code-line">
+                                            <span class="grey__text">&lt;!-- Contact Section --&gt;</span>
+                                        </div>
+
+                                        <div class="code-line blank-line">&nbsp;</div>
+
+                                        <div class="code-line">
+                                            <span class="green__text">&lt;section</span>
+                                            <span class="blue__text">&nbsp;id</span>=<span class="green__text">"contact"</span>
+                                            <span class="green__text">&gt;</span>
+                                        </div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;h1&gt;</span>
+                                            Contact Me
+                                            <span class="green__text">&lt;/h1&gt;</span>
+                                        </div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;p&gt;</span>
+                                        </div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;Have a project in mind, a frontend opportunity,
+                                        </div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;or just want to connect?
+                                        </div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;/p&gt;</span>
+                                        </div>
+
+                                        <div class="code-line blank-line">&nbsp;</div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;h2&gt;</span>
+                                            Phone
+                                            <span class="green__text">&lt;/h2&gt;</span>
+                                        </div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;p&gt;</span>
+                                            (870) 283-0125
+                                            <span class="green__text">&lt;/p&gt;</span>
+                                        </div>
+
+                                        <div class="code-line blank-line">&nbsp;</div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;h2&gt;</span>
+                                            Email
+                                            <span class="green__text">&lt;/h2&gt;</span>
+                                        </div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;p&gt;</span>
+                                            Edward.Kegley8@gmail.com
+                                            <span class="green__text">&lt;/p&gt;</span>
+                                        </div>
+
+                                        <div class="code-line blank-line">&nbsp;</div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;a</span>
+                                            <span class="blue__text">&nbsp;href</span>=<span class="green__text">"linkedin"</span>
+                                            <span class="green__text">&gt;</span>
+                                            LinkedIn
+                                            <span class="green__text">&lt;/a&gt;</span>
+                                        </div>
+
+                                        <div class="code-line blank-line">&nbsp;</div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;div</span>
+                                            <span class="blue__text">&nbsp;class</span>=<span class="green__text">"status"</span>
+                                            <span class="green__text">&gt;</span>
+                                        </div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="green__text">&lt;p&gt;</span>
+                                            Available for Opportunities
+                                            <span class="green__text">&lt;/p&gt;</span>
+                                        </div>
+
+                                        <div class="code-line">
+                                            &nbsp;&nbsp;<span class="green__text">&lt;/div&gt;</span>
+                                        </div>
+
+                                        <div class="code-line">
+                                            <span class="green__text">&lt;/section&gt;</span>
+                                            <span class="cursor"></span>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- ==========================================
+                                    Contact Section
+                                    ========================================== -->
+                                    <div id="css-code" class="css__code">
+                                        
+                                        <div class="code-line comment">/* Contact Section */</div>
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="selector">#contact</span><span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">display</span><span class="brace">:</span> <span class="value">flex</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">flex-direction</span><span class="brace">:</span> <span class="value">column</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">gap</span><span class="brace">:</span> <span class="number">32px</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">padding</span><span class="brace">:</span> <span class="number">32px</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}</span></div>
+
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="selector">.contact__me</span><span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">display</span><span class="brace">:</span> <span class="value">flex</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">flex-direction</span><span class="brace">:</span> <span class="value">column</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">gap</span><span class="brace">:</span> <span class="number">12px</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}</span></div>
+
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="selector">.contact__me h1</span><span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">font-size</span><span class="brace">:</span> <span class="number">2rem</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">color</span><span class="brace">:</span> <span class="value">#fff</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}</span></div>
+
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="selector">.contact__me p</span><span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">color</span><span class="brace">:</span> <span class="value">#D1D5DB</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">line-height</span><span class="brace">:</span> <span class="number">1.6</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}</span></div>
+
+                                        <br>
+
+                                        <div class="code-line comment">/* Contact Information */</div>
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="selector">.info</span><span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">display</span><span class="brace">:</span> <span class="value">flex</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">flex-direction</span><span class="brace">:</span> <span class="value">column</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">gap</span><span class="brace">:</span> <span class="number">14px</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">padding</span><span class="brace">:</span> <span class="number">24px 0</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">border-top</span><span class="brace">:</span> <span class="number">1px</span> <span class="value">solid</span> <span class="value">rgba(255,255,255,.08)</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">border-bottom</span><span class="brace">:</span> <span class="number">1px</span> <span class="value">solid</span> <span class="value">rgba(255,255,255,.08)</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}</span></div>
+
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="selector">.info a</span><span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">color</span><span class="brace">:</span> <span class="value">#38BDF8</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">text-decoration</span><span class="brace">:</span> <span class="value">none</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}</span></div>
+
+                                        <br>
+
+                                        <div class="code-line comment">/* Status */</div>
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="selector">.status</span><span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">display</span><span class="brace">:</span> <span class="value">flex</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">flex-direction</span><span class="brace">:</span> <span class="value">column</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">gap</span><span class="brace">:</span> <span class="number">12px</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}</span></div>
+
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="selector">.status__info</span><span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">display</span><span class="brace">:</span> <span class="value">flex</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">align-items</span><span class="brace">:</span> <span class="value">center</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">gap</span><span class="brace">:</span> <span class="number">10px</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}</span></div>
+
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="selector">.circle.green</span><span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">width</span><span class="brace">:</span> <span class="number">12px</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">height</span><span class="brace">:</span> <span class="number">12px</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">background</span><span class="brace">:</span> <span class="value">#22C55E</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">border-radius</span><span class="brace">:</span> <span class="number">50%</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}</span></div>
+
+                                        <br>
+
+                                        <div class="code-line comment">/* Animation */</div>
+                                        <br>
+
+                                        <div class="code-line indent-1"><span class="keyword">@keyframes</span> <span class="value">pulse</span> <span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="number">0%</span>, <span class="number">100%</span> <span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">opacity</span><span class="brace">:</span> <span class="number">1</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">transform</span><span class="brace">:</span> <span class="value">scale</span><span class="number">(1)</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="brace">}</span></div>
+
+                                        <div class="code-line indent-2"><span class="number">50%</span> <span class="brace">{</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">opacity</span><span class="brace">:</span> <span class="number">.5</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="property">transform</span><span class="brace">:</span> <span class="value">scale</span><span class="number">(1.15)</span><span class="brace">;</span></div>
+
+                                        <div class="code-line indent-2"><span class="brace">}</span></div>
+
+                                        <div class="code-line indent-1"><span class="brace">}
+
+                                        </span><span class="cursor"></span>
+                                        
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                               <div class="contact--right__half">
+
+                                    <div class="contact__title contact__title--preview">
+                                        <h1>Live Preview</h1>
+                                        <hr class="code-divider">
+                                    </div>
+
+                                    <!-- Blank Screen -->
+                                    <div id="blank-preview" class="blank__preview"></div>
+
+                                    <!-- HTML Preview -->
+                                    <div id="html-preview">
+
+                                        <div>
+
+                                            <div id="html-title" class="preview-item">
+                                                <h1>Contact Me</h1>
+                                                <p>
+                                                    Have a project in mind, a frontend opportunity, or just want
+                                                    to connect? I'd love to hear from you.
+                                                </p>
+                                            </div>
+
+                                            <div id="html-phone" class="preview-item">
+                                                <h2>Phone Number</h2>
+                                                <p>(870) 283-0125</p>
+                                            </div>
+
+                                            <div id="html-email" class="preview-item">
+                                                <h2>Email</h2>
+                                                <p>Edward.Kegley8@gmail.com</p>
+                                            </div>
+
+                                            <div id="html-linkedin" class="preview-item">
+                                                <h2>LinkedIn</h2>
+                                                <p>
+                                                    <a
+                                                        href="https://www.linkedin.com/in/edward-kegley-13ab643b7/"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                    >
+                                                        linkedin.com/in/edward-kegley-13ab643b7
+                                                    </a>
+                                                </p>
+                                            </div>
+
+                                            <div id="html-status" class="preview-item">
+                                                <h2>Status</h2>
+                                                <p>Available for Opportunities</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- CSS Preview -->
+                                    <div id="contact-preview" class="contact__preview">
+
+                                        <div id="css-title" class="contact__me preview-item">
+                                            <h1>Contact Me</h1>
+                                            <p>
+                                                Have a project in mind, a frontend opportunity, or just want
+                                                to connect? I'd love to hear from you.
+                                            </p>
+                                        </div>
+                                        <hr>
+                                        <div id="css-info" class="info">
+
+                                            <div id="css-phone" class="preview-item">
+                                                <h2>Phone Number</h2>
+                                                <p>(870) 283-0125</p>
+                                            </div>
+
+                                            <div id="css-email" class="preview-item">
+                                                <h2>Email</h2>
+                                                <p>Edward.Kegley8@gmail.com</p>
+                                            </div>
+
+                                            <div id="css-linkedin" class="preview-item">
+                                                <h2>LinkedIn</h2>
+                                                <p>
+                                                    <a
+                                                        class="link__color"
+                                                        href="https://www.linkedin.com/in/edward-kegley-13ab643b7/"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                    >
+                                                        linkedin.com/in/edward-kegley-13ab643b7
+                                                    </a>
+                                                    <hr>
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                        <div id="css-status" class="status preview-item">
+
+                                            <h2>Status</h2>
+
+                                            <div class="status__info">
+
+                                                <div class="circle green status__blink"></div>
+
+                                                <p>Available for Opportunities</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="contact__activation">
+                                <button id="activate-html">
+                                    Activate HTML
+                                </button>
+
+                                <button id="activate-css">
+                                    Activate CSS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="services">
-
-            <div class="service">
-                <div class="service__icon">✂️</div>
-                <h3>Haircuts</h3>
-                <p>Classic cuts, modern styles, fades, and tapers for every age.</p>
-                <span class="service__price">Starting at $25</span>
+    <section id="languages">
+        <div class="container">
+            <div class="row">
+                <div class="languages__wrapper">
+                    <div class="language__box">
+                        <div class="language__logo html">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="language__title">
+                            <h2>HTML</h2>
+                        </div>
+                    </div>
+                    <div class="language__box">
+                        <div class="language__logo css">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div class="language__title">
+                            <h2>CSS</h2>
+                        </div>
+                    </div>
+                    <div class="language__box">
+                        <div class="language__logo javascript">
+                            <i class="fa-brands fa-square-js"></i>
+                        </div>
+                        <div class="language__title">
+                            <h2>Javascript</h2>
+                        </div>
+                    </div>
+                    <div class="language__box">
+                        <div class="language__logo react">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <div class="language__title">
+                            <h2>React</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="service">
-                <div class="service__icon">🧔</div>
-                <h3>Beard Trim</h3>
-                <p>Professional beard shaping, trimming, and line-ups.</p>
-                <span class="service__price">Starting at $15</span>
-            </div>
-
-            <div class="service">
-                <div class="service__icon">💈</div>
-                <h3>Hot Towel Shave</h3>
-                <p>Relax with a traditional straight razor shave and hot towel treatment.</p>
-                <span class="service__price">Starting at $30</span>
-            </div>
-
-            <div class="service">
-                <div class="service__icon">👦</div>
-                <h3>Kids Cuts</h3>
-                <p>Friendly, patient service for children of all ages.</p>
-                <span class="service__price">Starting at $18</span>
-            </div>
-
         </div>
-    </div>
-</section>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+
+                <div class="section__title">
+                    <h2>Featured Projects</h2>
+                    <p>A collection of projects I've built while learning front-end development.</p>
+                </div>
+
+                <div class="projects">
+
+                    <!-- Project 1 -->
+                    <div class="project__card">
+                        <div class="project__img">
+                            <a href="https://edkegman.github.io/Hillbilly-Project/" target="_blank">
+                                <img src="./assets/hillbilly.png" alt="Hillbilly Internet" target="_blank">
+                            </a>
+                        </div>
+
+                        <div class="project__content">
+                            <h3>Hillbilly Internet</h3>
+
+                            <p>
+                                Hillbilly Internet is a fully responsive ISP website featuring service plans, customer resources, an interactive coverage map, and a modern interface designed to improve the customer experience.
+                            </p>
+
+                            <div class="project__tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project__links">
+                                <a href="https://edkegman.github.io/Hillbilly-Project/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/edkegman?tab=repositories" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__card">
+                        <div class="project__img">
+                            <a href="https://edkegman.github.io/MCU-API-Project/movies.html" target="_blank">
+                                <img src="./assets/MCU.png" alt="MCU">
+                            </a>
+                        </div>
+
+                        <div class="project__content">
+                            <h3>MCU library</h3>
+
+                            <p>
+                                MCU Library is a responsive movie browser built with HTML, CSS, and JavaScript, allowing users to search and explore Marvel films using live data from the OMDb API.
+                            </p>
+
+                            <div class="project__tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project__links">
+                                <a href="https://edkegman.github.io/MCU-API-Project/movies.html" target="_blank">Live Demo</a>
+                                <a href="https://github.com/edkegman?tab=repositories" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__card">
+                        <div class="project__img">
+                            <a href="https://edkegman.github.io/Bill-Troy/" target="_blank">
+                                <img src="./assets/Barber.png" alt="Barber">
+                            </a>
+                        </div>
+
+                        <div class="project__content">
+                            <h3>Barber Mockup</h3>
+
+                            <p>
+                                Barber Shop Mockup is a responsive website concept created for a local barber shop, focusing on modern design, clear navigation, and an engaging user experience.
+                            </p>
+
+                            <div class="project__tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project__links">
+                                <a href="https://edkegman.github.io/Bill-Troy/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/edkegman?tab=repositories">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
     <footer>
+
+    <img class="footer__border" src="./assets/wireframe.png" alt="Wireframe">
+
     <div class="container">
-        <div class="footer__logo">
-            <img class="logo" src="./assets/BarberLogo.png" alt="City Barber Shop Logo">
+        <div class="row">
+
+            <div class="footer">
+
+                <div class="footer__logo">
+                    <img class="logo" src="./assets/EK.png" alt="EK Logo">
+                </div>
+
+                <h2>Let's Build Something Great.</h2>
+
+                <p>
+                    Thanks for taking the time to explore my portfolio.
+                    I'm always looking for opportunities to learn, collaborate,
+                    and create meaningful web experiences.
+                </p>
+
+                <div class="footer__links">
+
+                    <a href="mailto:Edward.Kegley8@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        Email
+                    </a>
+
+                    <a href="https://github.com/edkegman" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/edward-kegley-13ab643b7/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+
+                </div>
+
+                <div class="footer__bottom">
+                    © 2026 Edward Kegley • Designed & Developed by Me
+                </div>
+
+            </div>
+
         </div>
-        <ul class="footer__links">
-            <li><a href="#" class="link">Home</a></li>
-            <li><a href="#" class="link">About</a></li>
-            <li><a href="#" class="link">Services</a></li>
-            <li><a href="#" class="link">Contact</a></li>
-        </ul>
-        <div class="footer__info">
-            <p>123 Main Street • Brookland, AR</p>
-            <p>(870) 555-1234</p>
-            <p>contact@citybarbershop.com</p>
-        </div>
-        <div class="footer__socials">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-google"></i></a>
-        </div>
-        <div class="footer__divider"></div>
-        <p class="footer__copyright">
-            © 2026 City Barber Shop. All Rights Reserved.
-        </p>
     </div>
+
 </footer>
-    <script src="home.js"></script>
+
+<script src="app.js"></script>
 </body>
 </html>
