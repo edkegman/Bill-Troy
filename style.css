@@ -1878,11 +1878,13 @@ Navigation
 
     top:10px;
 
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius:18px;
 }
 
 .logo{
-    width:70px;
+    width:140px;
 }
 
     .nav__links {
@@ -1905,7 +1907,7 @@ Navigation
     .nav__bar {
         flex-direction: column;
         justify-content: center;
-        gap: 20px;
+        gap: 0px;
 
         height: auto;
         padding: 10px 10px;
